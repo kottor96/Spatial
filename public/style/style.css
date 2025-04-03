@@ -11875,6 +11875,7 @@ h2 {
 
 h3 {
   color: rgb(186, 174, 170);
+  font-size: 20px;
 }
 
 p {
@@ -22353,7 +22354,7 @@ readers do not read off random characters that represent icons */
 }
 
 header {
-  min-height: 80vh;
+  min-height: 750px;
   border: solid 1px black;
   display: flex;
   flex-direction: column;
@@ -22380,6 +22381,18 @@ header nav div .navbar-brand {
 }
 header nav div a {
   color: white !important;
+}
+
+#section1 {
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#section1 div {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */
