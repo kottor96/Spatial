@@ -11869,6 +11869,18 @@ body {
   background-size: cover;
 }
 
+h2 {
+  color: rgb(72, 72, 72);
+}
+
+h3 {
+  color: rgb(186, 174, 170);
+}
+
+p {
+  color: rgb(139, 147, 159);
+}
+
 /*!
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -22334,6 +22346,13 @@ readers do not read off random characters that represent icons */
 .fas,
 .fa-solid {
   font-weight: 900;
+}
+
+header h1 {
+  color: white;
+}
+header nav div a {
+  color: white !important;
 }
 
 /*# sourceMappingURL=style.css.map */
