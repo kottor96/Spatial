@@ -22395,4 +22395,15 @@ header nav div a {
   width: 30%;
 }
 
+#section2 {
+  display: flex;
+  flex-direction: column;
+}
+#section2 #div_carte {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20vw;
+}
+
 /*# sourceMappingURL=style.css.map */
