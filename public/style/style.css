@@ -11881,6 +11881,10 @@ p {
   color: rgb(139, 147, 159);
 }
 
+section {
+  background-color: white;
+}
+
 /*!
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -22348,8 +22352,31 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
-header h1 {
+header {
+  min-height: 80vh;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+}
+header > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 30px;
+  flex: 1;
+}
+header > div h1 {
   color: white;
+}
+header nav div .navbar-brand::after {
+  content: " BY TEMPLATED";
+  font-weight: 200;
+}
+header nav div .navbar-brand {
+  font-weight: 700;
+  gap: 5px;
 }
 header nav div a {
   color: white !important;

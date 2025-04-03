@@ -1,9 +1,26 @@
 @use './_variable' as *
+@use './_mixin' as *
 header
-    h1
-        color: white
+    min-height: 80vh
+    border: solid 1px black
+    display: flex
+    flex-direction: column
+    > div
+        @include center_absolu
+        flex-direction: column
+        gap: 30px
+        flex: 1
+        h1
+            color: white
+            
     nav
         div
+            .navbar-brand::after
+                content: " BY TEMPLATED"
+                font-weight: 200
+            .navbar-brand
+                font-weight: 700
+                gap: 5px
             a
                 color: white !important
         

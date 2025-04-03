@@ -1,0 +1,6 @@
+#truc{
+    display: flex;
+    flex: inherit;
+    backdrop-filter: blur(10px);
+    
+}
