@@ -22336,4 +22336,10 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
+nav {
+  position: sticky;
+  z-index: 2;
+  background-color: blue;
+}
+
 /*# sourceMappingURL=style.css.map */
