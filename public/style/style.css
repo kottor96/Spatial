@@ -22416,4 +22416,18 @@ header nav div a {
   margin-top: 20px;
 }
 
+#section3 h2 {
+  text-align: center;
+}
+#section3 h3 {
+  text-align: center;
+}
+#section3 #carte2 > div {
+  display: flex;
+  justify-content: center;
+}
+footer #brand {
+  background-color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
