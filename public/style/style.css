@@ -22355,7 +22355,6 @@ readers do not read off random characters that represent icons */
 
 header {
   min-height: 750px;
-  border: solid 1px black;
   display: flex;
   flex-direction: column;
 }
@@ -22401,6 +22400,7 @@ header nav > div a {
   display: flex;
   flex-direction: column;
   width: 30%;
+  min-width: 200px;
 }
 
 #section2 {
@@ -22489,6 +22489,16 @@ footer > #brand > #truc {
   align-items: center;
   flex-direction: row;
   gap: 5rem;
+}
+
+@media (max-width: 768px) and (min-width: 425px) {
+  #section1 {
+    flex-wrap: wrap;
+  }
+  #section2 #carte2 div div {
+    flex-wrap: wrap;
+    width: 100vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
