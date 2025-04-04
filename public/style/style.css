@@ -22388,6 +22388,7 @@ header nav div a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  min-height: 510px;
 }
 #section1 div {
   display: flex;
@@ -22399,6 +22400,8 @@ header nav div a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(246, 246, 246);
+  min-height: 1020px;
 }
 #section2 h3 {
   padding-bottom: 50px;
@@ -22426,8 +22429,56 @@ header nav div a {
   display: flex;
   justify-content: center;
 }
-footer #brand {
+#section3 #carte2 > div div {
+  display: flex;
+  flex-direction: row;
+}
+#section3 #carte2 > div div div {
+  display: flex;
+  flex-direction: column;
+}
+#section3 #carte2 > div div img {
+  border-radius: 50%;
+}
+#section3 #carte2 > div .reverse {
+  flex-direction: row-reverse;
+}
+
+footer {
+  min-height: 760px;
+  display: flex;
+  flex-direction: column;
+}
+footer #fin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  flex: 1;
+}
+footer > #brand {
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+  flex: 1;
+}
+footer > #brand > #icone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5rem;
+}
+footer > #brand > #truc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

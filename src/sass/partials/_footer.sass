@@ -1,4 +1,24 @@
 @use './_variable' as *
+@use './_mixin' as*
 footer
-    #brand
+    min-height: 760px
+    display: flex
+    flex-direction: column
+    #fin
+        @include center_absolu
+        flex-direction: column
+        flex: 1
+    >#brand
         background-color: $fondSection
+        @include center_flex
+        flex-direction: column
+        gap: 5rem
+        flex: 1
+        >#icone
+            @include center_flex
+            flex-direction: row
+            gap: 5rem
+        >#truc
+            @include center_flex
+            flex-direction: row
+            gap: 5rem
