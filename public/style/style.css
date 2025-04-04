@@ -22401,6 +22401,7 @@ header nav > div a {
   flex-direction: column;
   width: 30%;
   min-width: 200px;
+  max-height: 40%;
 }
 
 #section2 {
@@ -22408,7 +22409,7 @@ header nav > div a {
   flex-direction: column;
   align-items: center;
   background-color: rgb(246, 246, 246);
-  min-height: 1020px;
+  min-height: 500px;
 }
 #section2 h3 {
   padding-bottom: 50px;
@@ -22421,6 +22422,10 @@ header nav > div a {
   flex-direction: row;
   justify-content: center;
   gap: 2vw;
+}
+#section2 #div_carte .card {
+  width: 40%;
+  min-height: 70%;
 }
 #section2 button {
   margin-top: 20px;
@@ -22442,6 +22447,7 @@ header nav > div a {
 #section3 #carte2 > div div {
   display: flex;
   flex-direction: row;
+  height: auto;
 }
 #section3 #carte2 > div div div {
   display: flex;
@@ -22449,6 +22455,7 @@ header nav > div a {
 }
 #section3 #carte2 > div div img {
   border-radius: 50%;
+  height: 20vw;
 }
 #section3 #carte2 > div .reverse {
   flex-direction: row-reverse;
@@ -22495,9 +22502,14 @@ footer > #brand > #truc {
   #section1 {
     flex-wrap: wrap;
   }
-  #section2 #carte2 div div {
+  #section2 #div_carte .card {
     flex-wrap: wrap;
-    width: 100vh;
+  }
+  #section3 #carte2 div div {
+    flex-wrap: wrap;
+    width: 80vw;
+    flex-direction: row;
+    gap: 3px;
   }
 }
 
